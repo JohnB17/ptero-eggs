@@ -28,7 +28,7 @@ body:
         - Arm64
     validations:
       required: true
-    value: Both
+    placeholder: Both
   - type: checkboxes
     id: license
     attributes:
