@@ -22,6 +22,7 @@ To remove logs from console, open nginx/conf.d/default.conf and uncomment (remov
 ```
 
 Forked from https://github.com/finnie2006/ptero-eggs as a service to add more packages
+
 Originally forked and edited from https://gitlab.com/tenten8401/pterodactyl-nginx
 
 A sigma production
