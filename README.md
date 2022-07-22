@@ -4,7 +4,7 @@ This is a repo where you can request a version with what ever PHP package you wa
 #### Please make sure no one else has requested for the same packages as you!
 
 How to use:
-1. Go to releases in the original repo and download the json file
+1. Go to releases in the original repo and download the json file https://github.com/finnie2006/ptero-eggs/releases/latest
 2. Import the egg to your panel like you normally do
 3. Add the Docker image url I sent you in the egg settings, where it says "Docker Images"
 4. Create a new server, additionally you can enable wordpress, this will install wordpress for you
