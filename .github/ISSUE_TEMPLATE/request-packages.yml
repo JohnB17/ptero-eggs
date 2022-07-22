@@ -1,6 +1,6 @@
 name: Request PHP packages
 description: Request a version of the Pterodactyl Nginx egg with new packages of your choice!
-title: "[Request]: "
+title: "[Request]: <title>"
 labels: ["request"]
 assignees:
   - JohnB17
@@ -28,7 +28,6 @@ body:
         - Arm64
     validations:
       required: true
-    placeholder: Both
   - type: checkboxes
     id: license
     attributes:
