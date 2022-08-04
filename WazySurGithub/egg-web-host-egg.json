@@ -10,7 +10,7 @@
     "description": "An egg to host any Website.\r\nit also has composer, just specify your packages in the packages box, and it will install the packages when you start the server, it also has wordpress, just turn on the slider when you make the server, and wordpress will get installed for you\r\n\r\nSigma Productions 2022",
     "features": null,
     "docker_images": {
-        "ghcr.io\/finnie2006\/nginx-ptero": "ghcr.io\/finnie2006\/nginx-ptero"
+        "ghcr.io/JohnB17/nginx-ptero:wazysurgithub-xmlwriter": "ghcr.io/JohnB17/nginx-ptero:wazysurgithub-xmlwriter"
     },
     "file_denylist": [],
     "startup": "{{STARTUP_CMD}}; if [[ ! -z ${COMPOSER_MODULES} ]]; then composer require ${COMPOSER_MODULES} --working-dir=\/home\/containe\r\nr\/webroot; fi;",
