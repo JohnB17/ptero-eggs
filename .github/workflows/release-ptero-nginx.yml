@@ -60,4 +60,4 @@ jobs:
           platforms: linux/arm64
           push: true
           tags: |
-            ghcr.io/JohnB17/nginx-ptero:${{ github.event.inputs.imagename }}
+            ghcr.io/johnb17/nginx-ptero:${{ github.event.inputs.imagename }}
