@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.5
 
 RUN apk --update --no-cache add ca-certificates nginx
 RUN apk add php5 php5-xml php5-exif php5-fpm php5-session php5-soap php5-openssl php5-gmp php5-pdo_odbc php5-json php5-dom php5-pdo php5-zip php5-mysqli php5-sqlite3 php5-pdo_pgsql php5-bcmath php5-gd php5-odbc php5-pdo_mysql php5-pdo_sqlite php5-gettext php5-xmlreader  php5-bz2 php5-iconv php5-pdo_dblib php5-curl php5-ctype php5-phar php5-fileinfo php5-mbstring php5-tokenizer
