@@ -32,7 +32,7 @@ body:
     id: license
     attributes:
       label: License
-      description: By submitting this issue, you agree to abide by our JohnB Public License License
+      description: By submitting this issue, you agree to abide by our Sigma Public License License
       options:
-        - label: I agree to abide by the MIT License in this Repository
+        - label: I agree to abide by the Sigma Public License in this Repository
           required: true
