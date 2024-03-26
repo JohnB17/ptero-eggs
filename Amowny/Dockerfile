@@ -9,8 +9,7 @@ RUN apk add php8 php8-xml php8-exif php8-fpm php8-session php8-soap php8-openssl
 
 RUN curl -o ioncube.tar.gz http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz \
     && tar -xvvzf ioncube.tar.gz \
-    && ls ioncube/ \
-    && mv ioncube/ioncube_loader_lin_8.2.so /usr/local/lib/php/extensions/ \
+    && mv ioncube_loader_lin_8.2.so /usr/local/lib/php/extensions/ \
     && rm -Rf ioncube.tar.gz ioncube \
     && echo "zend_extension=/usr/local/lib/php/extensions/no-debug-non-zts-20151012/ioncube_loader_lin_8.2.so" > /usr/local/etc/php/conf.d/00_docker-php-ext-ioncube_loader_lin_8.2.ini
 
